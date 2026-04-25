@@ -5,7 +5,7 @@ btn.addEventListener("click", () => {
   div.textContent = "";
   for (let i = 0; i < box; i++) {
     const row = document.createElement("div");
-    row.style.display = "flex";
+    row.classList.add("row");
     for (let j = 0; j < box; j++) {
       const col = document.createElement("div");
       col.classList.add("allcol");

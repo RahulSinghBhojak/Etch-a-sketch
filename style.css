@@ -1,9 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
 #gridBtn {
   width: 200px;
   height: 30px;
 }
+
 .allcol {
   border: 1px solid black;
-  width: 30px;
-  height: 30px;
+  flex: 1;
+}
+
+#container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 1;
 }
