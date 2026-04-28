@@ -2,6 +2,15 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column; /* stack button + container vertically */
+  justify-content: center; /* vertical center */
+  align-items: center; /* horizontal center */
+  height: 100vh; /* full screen height */
+  margin: 0;
+}
+
 #gridBtn {
   width: 200px;
   height: 30px;
